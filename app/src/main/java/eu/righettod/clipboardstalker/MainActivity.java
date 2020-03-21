@@ -11,6 +11,10 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.ToggleButton;
 
+import com.microsoft.appcenter.AppCenter;
+import com.microsoft.appcenter.analytics.Analytics;
+import com.microsoft.appcenter.crashes.Crashes;
+
 import java.util.concurrent.ScheduledFuture;
 import java.util.concurrent.ScheduledThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
@@ -68,5 +72,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+
+        AppCenter.start(getApplication(), "3031a4b4-8f17-4928-98ed-d25b33531238", Analytics.class, Crashes.class);
     }
 }
