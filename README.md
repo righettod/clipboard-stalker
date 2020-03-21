@@ -1,3 +1,5 @@
+[![Build status](https://build.appcenter.ms/v0.1/apps/e90829e5-e9b2-465e-b8f6-aca658db1b3d/branches/master/badge)](https://appcenter.ms)
+
 # Clipboard Stalker
 
 Android v6+ application to monitor (stalk) the clipboard and grab the content (only text content is supported).
